@@ -169,8 +169,8 @@ function Index() {
                   <RefreshCw className="h-4 w-4" />
                 </button>
               </div>
-              <h3 className="mt-3 font-semibold text-accent">⚠️ {TIPS[tip].title}</h3>
-              <p className="mt-1 text-sm text-muted-foreground">{TIPS[tip].body}</p>
+              <h3 className="mt-3 font-semibold text-accent">⚠️ {TIPS[tip]!.title}</h3>
+              <p className="mt-1 text-sm text-muted-foreground">{TIPS[tip]!.body}</p>
             </div>
             <div className="rounded-2xl border border-border bg-card p-4">
               <h2 className="font-display font-semibold">All traps to watch</h2>
